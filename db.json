@@ -1,0 +1,23 @@
+{
+  "links": [
+    {"url":"articles", "component": "ArticlesList", "id": null},
+    {"url":"articles/first", "component": "ArticleComponent", "id": 1},
+    {"url":"articles/second/withComments", "component": "ArticleWithCommentsComponent", "id":2}
+  ],
+  "articles": [
+    { "id": 0, "title": "Article 1", "author": "First Author" },
+    { "id": 1, "title": "Article 2", "author": "Second Author" },
+    { "id": 2, "title": "Article 3", "author": "Third Author" },
+    { "id": 3, "title": "Article 4", "author": "Second Author" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment 1", "articleId": 1 },
+    { "id": 2, "body": "some comment 2", "articleId": 2 },
+    { "id": 3, "body": "some comment 3", "articleId": 3 },
+    { "id": 4, "body": "some comment 4", "articleId": 2 },
+    { "id": 5, "body": "some comment 5", "articleId": 0 },
+    { "id": 6, "body": "some comment 6", "articleId": 2 },
+    { "id": 7, "body": "some comment 7", "articleId": 3 }
+  ],
+  "profile": { "id": 11, "name": "Editor Name", "role": "editor" }
+}
